@@ -265,6 +265,34 @@ body {
 }
 /* Software Skills Part End */
 
+/* Achivement Part Start */
+
+.achievement .achivement-image {
+  height: 250px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1199px) {
+  .achievement .achivement-image {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .achievement .achivement-image {
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .achievement .achivement-image {
+    height: 110px;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .achievement .achivement-image {
+    height: 70px;
+  }
+}
+/* Achivement Part End */
+
 /* Contact Part Start */
 .contact {
   background-color: #e33324;
@@ -380,6 +408,10 @@ body {
 /* Experiences Single Page Start */
 .experience-details {
   margin-bottom: 50px;
+}
+
+.experience-details-heading {
+  font-size: 40px;
 }
 .experience-details h3 {
   font-size: 24px;
