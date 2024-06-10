@@ -629,3 +629,11 @@ body {
   font-size: 20px;
   font-weight: 900;
 }
+
+.h-450px {
+  height: 450px;
+}
+
+.h-530px {
+  height: 530px;
+}
