@@ -45,6 +45,9 @@ body {
   border-bottom: 2px solid #e33324;
 }
 /* Header part start */
+button.navbar-toggler {
+  background-color: white;
+}
 .header {
   background-color: #000;
 }
